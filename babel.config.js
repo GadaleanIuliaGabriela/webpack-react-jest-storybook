@@ -6,7 +6,7 @@ module.exports = api => {
     require("@babel/preset-react"),
   ];
   const plugins = [
-
+    require("@babel/plugin-proposal-class-properties"),
   ];
 
   if(env === 'test'){

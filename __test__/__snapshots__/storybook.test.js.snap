@@ -1,5 +1,50 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Checkbox checked 1`] = `
+<span
+  aria-disabled={false}
+  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-7 MuiCheckbox-root MuiCheckbox-colorSecondary PrivateSwitchBase-checked-8 Mui-checked MuiIconButton-colorSecondary"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={null}
+>
+  <span
+    className="MuiIconButton-label"
+  >
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root"
+      focusable="false"
+      role="presentation"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+      />
+    </svg>
+    <input
+      aria-label="primary checkbox"
+      checked={true}
+      className="PrivateSwitchBase-input-10"
+      data-indeterminate={false}
+      onChange={[Function]}
+      type="checkbox"
+      value="checked"
+    />
+  </span>
+</span>
+`;
+
 exports[`Storyshots SubmitButton default 1`] = `
 <button
   className="MuiButtonBase-root MuiButton-root MuiButton-contained"
@@ -50,7 +95,7 @@ exports[`Storyshots SubmitButton submitting 1`] = `
     className="MuiButton-label"
   >
     <div
-      className="MuiCircularProgress-root makeStyles-progress-22 MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+      className="MuiCircularProgress-root makeStyles-progress-53 MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
       role="progressbar"
       style={
         Object {
