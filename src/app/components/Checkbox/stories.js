@@ -6,6 +6,11 @@ import SimpleCheckbox from './SimpleCheckbox';
 storiesOf('Checkbox', module)
   .add('checked', () => {
     return (
-      <SimpleCheckbox />
+      <SimpleCheckbox isChecked={true}/>
     )
+  })
+  .add('unchecked', () => {
+      return (
+          <SimpleCheckbox isChecked={false}/>
+      )
   });

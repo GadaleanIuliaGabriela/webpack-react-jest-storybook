@@ -1,13 +1,13 @@
 import React from 'react';
 import Checkbox from '@material-ui/core/Checkbox';
 
-const SimpleCheckbox = () => {
+const SimpleCheckbox = ({isChecked}) => {
   const [state, setState] = React.useState({
-    checked: true,
+    checked: isChecked,
   });
 
   const handleChange = name => event => {
-    setState({checked: false});
+    setState({checked: !state.checked});
   };
 
   return (
